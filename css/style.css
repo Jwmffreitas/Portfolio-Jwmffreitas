@@ -11,6 +11,11 @@
     src: url(../font/Schofield.ttf);
 }
 
+@font-face {
+    font-family: WriteSong;
+    src: url(../font/WriteSong.ttf);
+}
+
 .circle {
     position: absolute;
     left: -205px;
@@ -104,9 +109,12 @@
 .sobre {
     padding-top: 10px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     background-color: white;
     border-bottom-right-radius: 120px;
+    font-family: WriteSong;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .sobre img {
@@ -120,8 +128,23 @@
     font-family: Schofield;
 }
 
-.bumerang {
-    position: absolute;
-    width: 180px;
-    right: -10px;
+.icones {
+    margin-top: 20px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones i {
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #00FFF5;
+    text-align: center;
+    font-style: oblique;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 14px;
 }
