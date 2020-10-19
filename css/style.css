@@ -94,9 +94,32 @@
     align-items: center;
     justify-content: center;
     background-color: #00BFB9;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .gProj img {
     margin-top: 10px;
+}
+
+.sobre {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.sobre img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.sobre h2 {
+    font-family: Schofield;
+}
+
+.bumerang {
+    position: absolute;
+    width: 180px;
+    right: -10px;
 }
