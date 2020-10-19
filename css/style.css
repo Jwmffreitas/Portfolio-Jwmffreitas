@@ -105,6 +105,8 @@
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
+    background-color: white;
+    border-bottom-right-radius: 120px;
 }
 
 .sobre img {
