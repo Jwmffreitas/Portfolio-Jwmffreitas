@@ -139,6 +139,7 @@
 .desktop {
     width: 280px;
     height: 160px;
+    border-radius: 6px;
     box-shadow: gray 0px 0px 10px;
 }
 
