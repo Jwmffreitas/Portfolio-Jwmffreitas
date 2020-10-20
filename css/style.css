@@ -190,7 +190,7 @@ footer {
     font-size: 14px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 700px) and (max-width: 999px){
     .joao {
         font-family: Schofield;
         position: absolute;
@@ -293,4 +293,294 @@ footer {
         margin-top: -3px;
     }
     
+}
+
+@media(min-width: 1000px) and (max-width: 1199px) {
+    .joao {
+        font-family: Schofield;
+        position: absolute;
+        right: 28px;
+        top: 0px;
+        /*text-shadow: gray 0px 3px 5px;*/
+        font-size: 2.5em;
+    }
+
+    .dev {
+        display: inline;
+        top: 40px;
+    }
+
+    .skills {
+        margin-top: 120px;
+        margin-left: 60px;
+        display: flex;
+        position: relative;
+    }
+
+    .skills img {
+        width: 300px;
+    }
+
+    .web {
+        position: relative;
+        left: 30px;
+        bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .web img {
+        width: auto;
+        margin-right: 20px;
+        height: 90px;
+    }
+
+    .projeto {
+        margin-top: 70px;
+        width: 100%;
+        text-align: center;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        /*box-shadow: gray 0px 10px 10px;*/
+        height: 265px;
+        padding-bottom: 10px;
+    }
+    
+    .projeto h2 {
+        border-top: gray solid 1px;
+        padding-top: 10px;
+        font-family: Schofield;
+        font-size: 2.5em;
+    }
+
+    .git {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gitHub {
+        width: 250px; 
+        margin-top: 5px;
+    }
+    
+    .unDraw {
+        width: 265px;
+    }
+
+    .seta {
+        display: grid;
+        width: 100vw;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -5px;
+    }
+
+    .seta-c{
+        border-bottom: 60px solid #00BFB9;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        float: left;
+    }
+    
+    .gProj {
+        padding-top: 10px;
+        text-align: center;
+        align-items: center;
+        width: 800px;
+        margin: 0 auto;
+        justify-content: center;
+        background-color: #00BFB9;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .gProj img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .resp {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    /*.resp div:first-child {
+        background-color: #00BFB9;
+        border-radius: 20px;
+        width: 180px;
+        box-shadow: gray 0px 0px 10px;
+    }
+
+    .resp div {
+        background-color: #00BFB9;
+        border-radius: 20px;
+        width: 350px;
+        box-shadow: gray 0px 0px 10px;
+    }*/
+
+    .mobile {
+        height: 300px;
+    }
+
+    .desktop {
+        width: 450px;
+        height: auto;
+    }
+
+    .sobre {
+        margin-top: -5px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .joao {
+        font-family: Schofield;
+        position: absolute;
+        right: 28px;
+        top: 0px;
+        /*text-shadow: gray 0px 3px 5px;*/
+        font-size: 2.5em;
+    }
+
+    .dev {
+        display: inline;
+        top: 40px;
+    }
+
+    .skills {
+        margin-top: 120px;
+        margin-left: 60px;
+        display: flex;
+        position: relative;
+    }
+
+    .skills img {
+        width: 300px;
+    }
+
+    .web {
+        position: relative;
+        left: 30px;
+        bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .web img {
+        width: auto;
+        margin-right: 20px;
+        height: 90px;
+    }
+
+    .projeto {
+        margin-top: 70px;
+        width: 100%;
+        text-align: center;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        /*box-shadow: gray 0px 10px 10px;*/
+        height: 265px;
+        padding-bottom: 10px;
+    }
+    
+    .projeto h2 {
+        border-top: gray solid 1px;
+        padding-top: 10px;
+        font-family: Schofield;
+        font-size: 2.5em;
+    }
+
+    .git {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gitHub {
+        width: 250px; 
+        margin-top: 5px;
+    }
+    
+    .unDraw {
+        width: 265px;
+    }
+
+    .seta {
+        display: grid;
+        width: 100vw;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -5px;
+    }
+
+    .seta-c{
+        border-bottom: 60px solid #00BFB9;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        float: left;
+    }
+    
+    .gProj {
+        padding-top: 10px;
+        text-align: center;
+        align-items: center;
+        width: 800px;
+        margin: 0 auto;
+        justify-content: center;
+        background-color: #00BFB9;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .gProj img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .resp {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    /*.resp div:first-child {
+        background-color: #00BFB9;
+        border-radius: 20px;
+        width: 180px;
+        box-shadow: gray 0px 0px 10px;
+    }
+
+    .resp div {
+        background-color: #00BFB9;
+        border-radius: 20px;
+        width: 350px;
+        box-shadow: gray 0px 0px 10px;
+    }*/
+
+    .mobile {
+        height: 300px;
+    }
+
+    .desktop {
+        width: 450px;
+        height: auto;
+    }
+
+    .sobre {
+        margin-top: -5px;
+    }
 }
