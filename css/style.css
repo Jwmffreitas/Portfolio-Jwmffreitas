@@ -153,6 +153,26 @@
     font-weight: bold;
 }
 
+.divSobre {
+    border-left: black 1px solid;
+    padding-left: 5px;
+    padding-top: 110px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.bordaEu {
+    background-color: #00FFF5;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    width: 180px; height: 160px;
+    display: grid;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: -60px;
+}
+
 .sobre img {
     width: 150px;
     height: 150px;
@@ -162,6 +182,10 @@
 
 .sobre h2 {
     font-family: Schofield;
+}
+
+.sobre p {
+    width: 90%;
 }
 
 .icones {
@@ -328,12 +352,13 @@ footer {
         right: 28px;
         top: 0px;
         /*text-shadow: gray 0px 3px 5px;*/
-        font-size: 2.5em;
+        font-size: 3em;
     }
 
     .dev {
         display: inline;
-        top: 40px;
+        top: 50px;
+        right: 40px;
     }
 
     .skills {
@@ -350,8 +375,8 @@ footer {
     .web {
         position: relative;
         left: 30px;
-        bottom: 0px;
-        display: flex;
+        bottom: -10px;
+        display: grid;
         align-items: center;
         justify-content: center;
     }
@@ -359,16 +384,20 @@ footer {
     .web img {
         width: auto;
         margin-right: 20px;
-        height: 90px;
+        height: 70px;
+    }
+
+    .pj {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        width: 100vw;
     }
 
     .projeto {
         margin-top: 70px;
-        width: 100%;
         text-align: center;
-        display: grid;
-        align-items: center;
-        justify-content: center;
+        width: 550px;
         background-color: white;
         /*box-shadow: gray 0px 10px 10px;*/
         height: 265px;
@@ -376,7 +405,6 @@ footer {
     }
     
     .projeto h2 {
-        border-top: gray solid 1px;
         padding-top: 10px;
         font-family: Schofield;
         font-size: 2.5em;
@@ -397,33 +425,19 @@ footer {
     .unDraw {
         width: 265px;
     }
-
-    .seta {
-        display: grid;
-        width: 100vw;
-        height: 60px;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: -5px;
-    }
-
-    .seta-c{
-        border-bottom: 60px solid #00BFB9;
-        border-left: 40px solid transparent;
-        border-right: 40px solid transparent;
-        float: left;
-    }
     
     .gProj {
         padding-top: 10px;
         text-align: center;
         align-items: center;
-        width: 800px;
-        margin: 0 auto;
+        width: 500px;
         justify-content: center;
         background-color: #00BFB9;
+        background-image: linear-gradient(to bottom, #00BFB9, white, white);
         padding-bottom: 30px;
         border-radius: 20px;
+        margin-top: 100px;
+        margin-left: 20px;
         margin-bottom: 40px;
     }
     
@@ -433,7 +447,7 @@ footer {
     }
 
     .resp {
-        display: flex;
+        display: grid;
         align-items: center;
         justify-content: space-around;
     }
@@ -457,7 +471,7 @@ footer {
     }
 
     .desktop {
-        width: 450px;
+        width: 300px;
         height: auto;
     }
 
@@ -465,7 +479,23 @@ footer {
         margin-top: -5px;
     }
 
+    .divSobre {
+        padding-top: 20px;
+    }
+
+    .bordaEu {
+        height: 210px;
+        width: 220px;
+    }
+
+    .sobre img {
+        width: 200px;
+        height: auto;
+        margin-left: 5px;
+    }
+
     .sobre p {
+        width: 700px;
         font-size: 25px;
     }
 }
