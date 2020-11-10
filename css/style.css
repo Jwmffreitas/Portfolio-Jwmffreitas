@@ -16,6 +16,11 @@
     src: url(../font/WriteSong.ttf);
 }
 
+body {
+    display: grid;
+    align-items: center;
+}
+
 .circle {
     position: absolute;
     left: -205px;
@@ -39,7 +44,6 @@
 
 .joao {
     font-family: Schofield;
-    position: absolute;
     right: 10px;
     top: 5px;
     /*text-shadow: gray 0px 3px 5px;*/
@@ -369,9 +373,9 @@ footer {
         position: relative;
     }
 
-    .skills img {
+    /*.skills img {
         width: 300px;
-    }
+    }*/
 
     .web {
         position: relative;
@@ -385,7 +389,7 @@ footer {
     .web img {
         width: auto;
         margin-right: 20px;
-        height: 70px;
+        height: 90px;
     }
 
     .pj {
