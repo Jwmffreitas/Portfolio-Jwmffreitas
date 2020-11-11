@@ -207,60 +207,7 @@ footer {
       }
   }
 
-@media (min-width: 700px) and (max-width: 999px){
-    .joao {
-        font-family: Schofield;
-        position: absolute;
-        left: 200px;
-        top: 0px;
-        font-size: 2.5em;
-    }
-
-    .dev {
-        display: inline;
-    }
-
-    .skills {
-        margin-top: 140px;
-        margin-left: 60px;
-        display: flex;
-        position: relative;
-    }
-    
-    .web img {
-        width: auto;
-        height: 100px;
-    }
-
-    .projeto {
-        margin-top: 70px;
-        width: 100%;
-        text-align: center;
-        background-color: white;
-        font-size: 18px;
-        font-weight: bold;
-    }
-    
-    .projeto h2 {
-        font-family: Schofield;
-        font-size: 2.5em;
-    }
-    
-    .unDraw {
-        width: 225px;
-    }
-
-    .sobre {
-        margin-top: -3px;
-    }
-
-    .sobre p {
-        font-size: 20px;
-    }
-    
-}
-
-@media(min-width: 1000px) {
+@media (min-width: 700px){
     .joao {
         font-family: Schofield;
         position: absolute;
@@ -299,7 +246,7 @@ footer {
 
     .pj {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
         margin: 0 auto;
         width: 100vw;
@@ -320,7 +267,7 @@ footer {
         width: 80%;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         background-color: white;
         padding-bottom: 10px;
     }
@@ -328,12 +275,12 @@ footer {
     .projeto h2 {
         padding-top: 10px;
         font-family: Schofield;
-        font-size: 2.5em;
+        font-size: 2.0em;
     }
 
     .projeto p {
         font-family: WriteSong;
-        font-size: 25px;
+        font-size: 1.2em;
     }
 
     .gitHub {
@@ -346,6 +293,17 @@ footer {
         margin-top: 10px;
     }
 
+    .sobre {
+        margin-top: -3px;
+    }
+
+    .sobre p {
+        font-size: 20px;
+    }
+    
+}
+
+@media(min-width: 1000px) {
     .sobre {
         margin-top: -5px;
     }
