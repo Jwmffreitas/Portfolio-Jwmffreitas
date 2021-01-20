@@ -92,7 +92,7 @@ body {
 }
 
 .projeto {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 20px;
     background-color: white;
     font-size: 18px;
@@ -118,6 +118,29 @@ body {
 .projeto p {
     font-family: WriteSong;
 }
+
+.card {
+    background-color: white;
+    box-shadow: gray 5px 5px 15px;
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    width: 250px;
+}.card:hover {opacity: 0.8;}
+.card img {
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}.card h3, .card h4 {
+    margin: 0;
+    font-weight: bold;
+    font-family: WriteSong;
+}.card h4 {color: gray; margin-top: -8px;}
 
 .gitHub {
     width: 145px; 
@@ -304,6 +327,19 @@ footer {
         font-family: WriteSong;
         font-size: 1.2em;
     }
+
+    .cards-projetos {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+    }.card img {width: 300px;}
 
     .gitHub {
         width: 250px; 
